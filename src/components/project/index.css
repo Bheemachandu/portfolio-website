@@ -1,0 +1,87 @@
+.projectContainer {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: row;
+  width: 992px;
+  height: 524px;
+  border-radius: 24px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.project2 {
+  width: 496px;
+  height: 524px;
+  padding-top: 146.5px;
+  padding-bottom: 146.5px;
+  padding-left: 38.88px;
+  padding-right: 38.88px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project3 {
+  width: 496px;
+  height: 526px;
+}
+
+.projectImg {
+  width: 496px;
+  height: 526px;
+}
+
+.project21 {
+  width: Fixed (406.68px);
+  height: Hug (232px);
+  top: 146.5px;
+  left: 50.44px;
+  gap: 24px;
+}
+
+.projectName {
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #25282b;
+}
+
+.projectDescription {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  width: 406.68px;
+  height: 81px;
+}
+
+.projectButton {
+  width: Hug (150px);
+  height: Hug (43px);
+  padding: 8px, 24px, 8px, 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 24px;
+  border: 1px;
+  color: #25282b;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.orderChange {
+  order: -1;
+}

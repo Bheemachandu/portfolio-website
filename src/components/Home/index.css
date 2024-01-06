@@ -1,0 +1,228 @@
+.homeContainer {
+  background-color: #fcfafc;
+  height: 100%;
+  width: 100vw;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 60px;
+  padding-right: 60px;
+  overflow: hidden;
+
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+}
+
+.menuHeader {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.headerPara {
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.about {
+  padding-right: 30px;
+}
+
+.role {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 486px;
+  height: 27px;
+  color: #fdc435;
+}
+
+.image {
+  width: 720px;
+  height: 629px;
+  left: 720px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.container2 {
+  padding-left: 60px;
+  width: 486px;
+  margin-top: 80px;
+}
+
+.projectBtn {
+  background: #fdc435;
+  color: #25282b;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.LinkedInBtn {
+  background: transparent;
+  border: 2px solid #25282b;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  border-radius: 8px;
+}
+
+.formHeading {
+  height: 72px;
+  color: #25282b;
+
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.addProjectContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  width: 400px;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+}
+.inputDivPadding {
+  padding-top: 20px;
+}
+
+.label {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #25282b;
+}
+
+.inputEl {
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  border: 2px;
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(0deg, #e8ecf4, #e8ecf4);
+  border: 1px solid #e8ecf4;
+}
+
+.addBtn {
+  width: (81px);
+  height: (43px);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
+  background: #fdc435;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: none;
+}
+
+.addBtnDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bottomBorder {
+  width: 100vw;
+}
+
+.projectHeading {
+  width: 100vw;
+  text-align: center;
+  color: #25282b;
+
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+}
+
+.container4 {
+  display: flex;
+  justify-content: space-around;
+
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.iconContainer {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.iconContent {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.navigationLink {
+  color: #25282b;
+  text-decoration: none;
+}
